@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Optima";
+  src: url("font/Optima-Font/OPTIMA.TTF") format("truetype"),
+    url("font/Optima-Font/OPTIMA_B.TTF") format("truetype"),
+    url("font/Optima-Font/unicode.optima.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "Optima nova LT Pro";
+  src: url("font/optima-nova-lt-pro-cufonfonts/OptimaNovaLTProRegular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+    top: 76px;
+    left: 59px;
+*/
+.container {
+  display: flex;
+  margin: 76px 0 119px 59px;
+}
+
+/* content */
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 851px;
+  margin-right: 150px;
+}
+
+.content-h11 {
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  top: 73px;
+  left: 2px;
+  opacity: 0.7;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #402c22;
+}
+
+.content-h12 {
+  position: absolute;
+  width: 498px;
+  height: 201px;
+  top: 108px;
+  color: #402c22;
+  font-family: "Optima";
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 66.78px;
+  letter-spacing: -1.26px;
+}
+
+.content-items {
+  position: absolute;
+  top: 272px;
+}
+
+.content-item-p1 {
+  font-family: "Optima nova LT Pro";
+  font-size: 22px;
+  line-height: 26.84px;
+  letter-spacing: -0.44px;
+  color: #402c22;
+}
+
+.content-item-p2 {
+  width: 403px;
+  height: 69px;
+  opacity: 0.8;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #402c22;
+}
+
+.content-item {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 452px;
+  height: 27px;
+}
+
+.content-minus {
+  color: #402c22;
+}
+
+.content-plus {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #402c22;
+}
+
+.content-plus-vertical {
+  position: absolute;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #402c22;
+}
+
+.content-plus-horizontal {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-divider {
+  margin: 8px 0;
+  width: 452px;
+  /* height: 1px;
+  background-color: #d9d5d3; */
+}
+
+/* l-image */
+.l-image {
+  position: absolute;
+  left: 656px;
+}
+
+/* s-image */
+.s-image {
+  position: absolute;
+  left: 1436px;
+}
